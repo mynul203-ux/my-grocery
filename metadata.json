@@ -1,0 +1,6 @@
+{
+  "name": "My Grocery",
+  "description": "Fast and fresh grocery shopping experience with real-time cart, category filtering, instant delivery tracking, and customizable app configuration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

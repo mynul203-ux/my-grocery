@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded corners for standalone icon -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+
+  <!-- Subtle glow inner circle -->
+  <circle cx="256" cy="256" r="180" fill="#ffffff" fill-opacity="0.06"/>
+
+  <!-- Shopping Bag Body -->
+  <g filter="url(#shadow)">
+    <!-- Bag main container -->
+    <path d="M140 180 C140 160 156 144 176 144 L336 144 C356 144 372 160 372 180 L394 400 C396 418 382 434 364 434 L148 434 C130 434 116 418 118 400 Z" fill="#ffffff"/>
+
+    <!-- Bag handles -->
+    <path d="M196 156 V120 C196 86 223 58 256 58 C289 58 316 86 316 120 V156" fill="none" stroke="url(#accentGrad)" stroke-width="26" stroke-linecap="round"/>
+
+    <!-- Fresh Apple & Leaf icon inside the bag -->
+    <circle cx="230" cy="300" r="54" fill="#ef4444"/>
+    <circle cx="270" cy="300" r="54" fill="#dc2626"/>
+    
+    <!-- Fresh Leaf -->
+    <path d="M250 250 C250 216 286 210 294 210 C294 228 280 258 250 250 Z" fill="url(#leafGrad)"/>
+    <!-- Leaf stem -->
+    <path d="M250 254 C246 240 240 232 236 226" fill="none" stroke="#78350f" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Grocery Bag Smile Line -->
+    <path d="M200 370 Q256 400 312 370" fill="none" stroke="#e2e8f0" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

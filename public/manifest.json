@@ -1,0 +1,64 @@
+{
+  "id": "/",
+  "name": "My Grocery - Fresh Food & Essentials",
+  "short_name": "My Grocery",
+  "description": "Order farm-fresh vegetables, seasonal fruits, dairy, meats, and daily essentials with superfast doorstep delivery.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#059669",
+  "categories": ["shopping", "food", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Basket",
+      "short_name": "Basket",
+      "description": "Check current shopping basket",
+      "url": "/?openCart=true",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Fresh Vegetables",
+      "short_name": "Vegetables",
+      "description": "Browse daily fresh vegetables",
+      "url": "/?category=vegetables",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
